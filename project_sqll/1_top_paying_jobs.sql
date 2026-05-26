@@ -1,3 +1,6 @@
+/*
+This query returns the top 10 highest paying remote data analyst jobs along with their relevant information
+*/
 SELECT 
     job_id,
     job_title,
