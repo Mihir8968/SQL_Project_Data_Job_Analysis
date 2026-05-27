@@ -66,7 +66,6 @@ This query retrieves the highest-paying remote positions by filtering records ba
 
 * Remote location (`job_location = 'Anywhere'`)
 * Non-null salary information
-* Data analyst related positions
 
 ### SQL Concepts Used
 
