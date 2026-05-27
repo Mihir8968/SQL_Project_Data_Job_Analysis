@@ -92,6 +92,8 @@ ORDER BY
 LIMIT 10
 ```
 
+### Result visualization
+![1_result](/project_sql/assets/1_visuallization.png)
 ---
 
 ## 2. Skills Required for Top Paying Jobs
@@ -135,7 +137,10 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 ```
-
+### Result
+![2_result](/project_sql/assets/2_result.png)
+---
+#### From the table, it is evident that the skills assiciated with the top payingjobs are sql, python, java, c++, cassandra, spark etc.
 ---
 
 ## 3. Top Demanded Skills
@@ -165,7 +170,8 @@ ORDER BY
     demand_count DESC
 LIMIT 10
 ```
-
+### Result
+![3_result](/project_sql/assets/3_result.png)
 ---
 
 ## 4. Top Paying Skills
@@ -196,7 +202,8 @@ ORDER BY
     avg_salary DESC
 LIMIT 20
 ```
-
+### Result
+![4_result](/project_sql/assets/4_result.png)
 ---
 
 ## 5. Optimal Skills to Learn
@@ -236,7 +243,8 @@ ORDER BY avg_salary DESC,
     demand_count DESC
 LIMIT 20;
 ```
-
+### Result
+![5_result](/project_sql/assets/5_result.png)
 ---
 
 # What I Learned
